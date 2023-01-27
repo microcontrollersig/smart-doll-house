@@ -1,0 +1,75 @@
+views:
+  - theme: Backend-selected
+    title: Doll House
+    panel: true
+    badges: []
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - type: custom:floorplan-card
+                full_height: true
+                config:
+                  image: /local/floorplan/dollhouse/dollhousehafloorplan.svg
+                  stylesheet: /local/floorplan/dollhouse/dollhouse.css
+                  log_level: info
+                  console_log_level: info
+                  default:
+                    tap_action: more-info
+                  rules:
+                    - name: Room1
+                      element: room1
+                      entity: person.ha
+                      tap_action:
+                        action: navigate
+                        navigation_path: /smart-doll-house/room1
+                    - name: Room2
+                      element: room2
+                      entity: person.ha
+                      tap_action:
+                        action: navigate
+                        navigation_path: /smart-doll-house/room2
+                    - name: Room3
+                      element: room3
+                      entity: person.ha
+                      tap_action:
+                        action: navigate
+                        navigation_path: /smart-doll-house/room3
+                    - name: Room4
+                      element: room4
+                      entity: person.ha
+                      tap_action:
+                        action: navigate
+                        navigation_path: /smart-doll-house/room4
+                    - name: Room5
+                      element: room5
+                      entity: person.ha
+                      tap_action:
+                        action: navigate
+                        navigation_path: /smart-doll-house/room5
+  - theme: Backend-selected
+    title: Room1
+    path: room1
+    badges: []
+    cards: []
+  - theme: Backend-selected
+    title: Room2
+    path: room2
+    badges: []
+    cards: []
+  - theme: Backend-selected
+    title: Room3
+    path: room3
+    badges: []
+    cards: []
+  - theme: Backend-selected
+    title: Room4
+    path: room4
+    badges: []
+    cards: []
+  - theme: Backend-selected
+    title: Room5
+    path: room5
+    badges: []
+    cards: []
