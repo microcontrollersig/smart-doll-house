@@ -9,3 +9,5 @@
 ### TODO
 1. https://github.com/ExperienceLovelace/ha-floorplan/discussions/321
    All I want is when you click one of the rooms, it navigates to a secondary view(other tab on lovelace dashboard)
+2. example of ha-floorplan
+   https://github.com/ExperienceLovelace/ha-floorplan/tree/master/docs/_docs/floorplan/examples
