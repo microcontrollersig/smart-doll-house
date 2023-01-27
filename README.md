@@ -6,3 +6,6 @@
 2. Used free online Adobe Express to convert to SVG
 3. Here is a resource for finding svg icons https://experiencelovelace.github.io/ha-floorplan/docs/create-svg-file/
 
+### TODO
+1. https://github.com/ExperienceLovelace/ha-floorplan/discussions/321
+   All I want is when you click one of the rooms, it navigates to a secondary view(other tab on lovelace dashboard)
