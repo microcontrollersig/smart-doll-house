@@ -1,5 +1,9 @@
 # Smart Doll House powered by Home Assistant
 
+What happens when a hobbyist is given a doll house?
+
+![Empty doll house](https://raw.githubusercontent.com/microcontrollersig/smart-doll-house/main/20230111_121640_main-removebg-preview.png)
+
 ### BOM
 
 | Image | Item | 
@@ -19,3 +23,8 @@
    All I want is when you click one of the rooms, it navigates to a secondary view(other tab on lovelace dashboard)
 2. example of ha-floorplan
    https://github.com/ExperienceLovelace/ha-floorplan/tree/master/docs/_docs/floorplan/examples
+
+### Similar Projects
+1. https://github.com/msurguy/MYHouse-smart-dollhouse
+
+   
